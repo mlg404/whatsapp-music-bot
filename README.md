@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Be The Hero" title="Be The Hero" src=".github/wpp.png" width="300px" />
+  <img alt="Whatsapp music bot" title="Whatsapp music bot" src=".github/wpp.png" width="200px" />
 </h1>
 
 <h3 align="center">
@@ -35,11 +35,11 @@
 </p>
 
 <p align="center" style="display: flex; align-items: center; justify-content:center;">
-  <img alt="Web Gif" src=".github/cached.gif" width="200px">
-  <img alt="Web Gif" src=".github/download.gif" width="200px">
-  <img alt="Web Gif" src=".github/longest.gif" width="200px">
-  <img alt="Web Gif" src=".github/groups.gif" width="200px">
-  <img alt="Web Gif" src=".github/progress.gif" width="200px">
+  <img alt="Web Gif" src=".github/cached.gif" width="250px">
+  <img alt="Web Gif" src=".github/download.gif" width="250px">
+  <img alt="Web Gif" src=".github/longest.gif" width="250px">
+  <img alt="Web Gif" src=".github/groups.gif" width="250px">
+  <img alt="Web Gif" src=".github/progress.gif" width="250px">
 </p>
 
 ## :rocket: Info
