@@ -78,7 +78,7 @@ $ yarn install
 $ npm install 
 
 # Run the application with yarn (or npm)
-$ yarn run
+$ yarn run app
 ```
 
 You need to configure your `ffmpeg Path` (line 65 in index.js). Remeber to previously download and instal ffmpeg (for convertions).
