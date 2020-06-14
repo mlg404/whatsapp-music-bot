@@ -1,0 +1,6 @@
+node_modules/*
+downloads/*
+!downloads/.your_mp3_files_will_be_saved_here
+yarn.lock
+index1.js
+index2.js
