@@ -85,7 +85,7 @@ You need to configure your `ffmpeg Path` (line 65 in index.js). Remeber to previ
 
 After run the script, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
 
-## :mag_right: Funcionalities
+## :mag_right: Functionalities
 
 See the current features!
 - Search a song directly from youtube;
