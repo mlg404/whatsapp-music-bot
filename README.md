@@ -23,7 +23,8 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/mlg404/whatsapp-music-bot.svg"> 
 </p>
 
-<p>A whatsapp bot to send musics to your friends!</p>
+<h1 align="center" style="color:#ff0000">NOT WORKING</h1>
+<p align="center">Github removed YTDL (a dependency to download youtube videos)</p>
 
 <p align="center">
   <a href="#rocket-info">Info</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
