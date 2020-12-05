@@ -10,7 +10,7 @@ interface DownloadStatus {
   downloading?: boolean;
   showProgress: boolean;
 }
-const text = langs.br;
+const text = langs.en;
 const client = new Client({});
 
 const downloadStatus: DownloadStatus = { showProgress: false };
