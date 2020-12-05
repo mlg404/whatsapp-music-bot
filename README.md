@@ -80,7 +80,16 @@ $ yarn start
 ```
 
 You need to configure your `ffmpegPath`. Remeber to previously download and instal ffmpeg (for convertions).
+<br />
+See available langs in `src/language.ts`. Configure your language in `main.ts` file, on line 13:
+```ts
+const text = langs.br; // brazilian portuguese
 
+// or
+
+const text = langs.en; // english
+```
+<br />
 After run the script, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
 
 ## :mag_right: Functionalities
@@ -101,6 +110,8 @@ See the current features!
 - Push to your branch: `git push origin my-feature`.
 
 Open a pull request with your branch. After yout pull request merge, you should delete your branch.
+<br />
+We need some translations too! Look for `language.ts` file! **It's so easy!**
 
 ## :memo: License
 This project is under MIT license. See [LICENSE](https://github.com/mlg404/whatsapp-music-bot/blob/master/LICENSE) for more information.
