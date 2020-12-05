@@ -3,28 +3,25 @@
 </h1>
 
 <h3 align="center">
-  WhatsApp Music Bot
+  WhatsApp Music Bot v2
 </h3>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/mlg404/whatsapp-music-bot.svg">
-  
+
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mlg404/whatsapp-music-bot.svg">
-   
+
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/mlg404/whatsapp-music-bot.svg">
   <a href="https://github.com/mlg404/whatsapp-music-bot/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mlg404/whatsapp-music-bot.svg">
   </a>
-  
+
   <a href="https://github.com/mlg404/whatsapp-music-bot/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/mlg404/whatsapp-music-bot.svg">
   </a>
-  
-  <img alt="GitHub" src="https://img.shields.io/github/license/mlg404/whatsapp-music-bot.svg"> 
-</p>
 
-<h1 align="center" style="color:#ff0000">NOT WORKING</h1>
-<p align="center">Github removed YTDL (a dependency to download youtube videos)</p>
+  <img alt="GitHub" src="https://img.shields.io/github/license/mlg404/whatsapp-music-bot.svg">
+</p>
 
 <p align="center">
   <a href="#rocket-info">Info</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -45,16 +42,18 @@
 
 ## :rocket: Info
 
-Your whatsapp becomes a bot. You can send music's to your friend's just sending `!play SONG_NAME`
+Your whatsapp becomes a music bot!. You can send music's to your friend's private conversation or in your gropus just sending `!play SONG_NAME` where SONG_NAME is the name of the song you are looking for!
 
 ## :computer: Technologies
 
 This project was developed following this technologies:
 
+- [eslint](https://eslint.org/)
 - [FFMPEG](https://ffmpeg.org/)
-- [Nodemon](https://nodemon.io/)
 - [Node.js](https://nodejs.org/en/)
-- [VS Code][vc] 
+- [VS Code][vc]
+- [Prettier](https://prettier.io/)
+- [Typescript](https://www.typescriptlang.org/)
 - [YouTube Search](https://www.npmjs.com/package/yt-search)
 - [QrCode Terminal](https://www.npmjs.com/package/qrcode-terminal)
 - [Whatsapp WEB js](https://pedroslopez.me/whatsapp-web.js/)
@@ -74,15 +73,13 @@ $ git clone https://github.com/mlg404/whatsapp-music-bot.git whatsapp-music-bot
 $ cd whatsapp-music-bot
 
 # Install dependencies with yarn
-$ yarn install 
-# or via npm
-$ npm install 
+$ yarn install
 
 # Run the application with yarn (or npm run dev)
-$ yarn dev
+$ yarn start
 ```
 
-You need to configure your `ffmpeg Path` (line 65 in index.js). Remeber to previously download and instal ffmpeg (for convertions).
+You need to configure your `ffmpegPath`. Remeber to previously download and instal ffmpeg (for convertions).
 
 After run the script, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
 
