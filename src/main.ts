@@ -119,10 +119,12 @@ client.on('message_create', async message => {
       );
       //if (downloadStatus.downloading) {
         downloadedMusics.push(videoId);
+
+
         fs.unlink(downloadPath+'/'+`${videoId}.mp3`, function (err) {
           if (err) throw err;
           // if no error, file has been deleted successfully
-          console.log('File deleted!');
+          console.log('Downloaded File deleted!');
         });
      // }
       return message.reply(media);
