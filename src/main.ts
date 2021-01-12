@@ -16,8 +16,9 @@ const client = new Client({});
 const downloadStatus: DownloadStatus = { showProgress: false };
 const downloadedMusics: string[] = [];
 const downloadPath = path.resolve(__dirname, '..', 'downloads');
-const ffmpegPath = '/usr/bin/ffmpeg'; // default linux
+const ffmpegPath = '/Users/sathyanarayan/Downloads/ffmpeg'; // default linux
 // const ffmpegPath = 'C:\ffmpeg\bin\ffmpeg.exe'; //default windows
+const removePath = path.resolve(__dirname, '..', 'downloads');
 
 const downloader = new DownloadYTFile({
   outputPath: downloadPath,
@@ -116,7 +117,14 @@ client.on('message_create', async message => {
       const media = MessageMedia.fromFilePath(
         path.resolve(downloadPath, `${videoId}.mp3`),
       );
-      downloadedMusics.push(videoId);
+      //if (downloadStatus.downloading) {
+        downloadedMusics.push(videoId);
+        fs.unlink(downloadPath+'/'+`${videoId}.mp3`, function (err) {
+          if (err) throw err;
+          // if no error, file has been deleted successfully
+          console.log('File deleted!');
+        });
+     // }
       return message.reply(media);
     } catch (error) {
       console.log(error);
