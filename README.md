@@ -96,11 +96,11 @@ After run the script, you need to scan the QrCode in your terminal with your wha
 
 See the current features!
 - Search a song directly from youtube;
-- Song's searched are downloaded for optimize next searches;
-- Send song's in private or group's;
-- Your friend's can send the command too;
+- Songs once searched are downloaded for optimized next searches;
+- Send songs in private or in groups;
+- Your friends can send the command too;
 - You can enable the "Download progress";
-- Prevent download videos with mora than 15 minutes
+- Prevents downloading videos more than 15 minutes long.
 
 ## :busts_in_silhouette: Contribute
 
