@@ -5,6 +5,7 @@
 <h3 align="center">
   WhatsApp Music Bot v3
 </h3>
+<h6 align="center"><i>now for Multidevices!</i></h6>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/mlg404/whatsapp-music-bot.svg">
@@ -32,32 +33,31 @@
   <a href="#memo-license">License</a>
 </p>
 
-<p align="center" style="display: flex; align-items: center; justify-content:center;">
-  <img alt="Web Gif" src=".github/cached.gif" width="250px">
-  <img alt="Web Gif" src=".github/download.gif" width="250px">
-  <img alt="Web Gif" src=".github/longest.gif" width="250px">
-  <img alt="Web Gif" src=".github/groups.gif" width="250px">
-  <img alt="Web Gif" src=".github/progress.gif" width="250px">
+<p align="center" style="display: flex; flex-direction: column; align-items: center; justify-content:center;">
+  <img alt="Web Gif" src=".github/download.gif" width="600px">
+  <img alt="Web Gif" src=".github/cached.gif" width="600px">
 </p>
 
 ## :rocket: Info
 
 Your whatsapp becomes a music bot!. You can send music's to your friend's private conversation or in your gropus just sending `!play SONG_NAME` where SONG_NAME is the name of the song you are looking for!
 
+<strong>WARNING:</strong> this bot is not hosted. You need to host it by yourself
+
 ## :computer: Technologies
 
 This project was developed following this technologies:
 
+- [ytdl](https://www.npmjs.com/package/ytdl-core)
 - [eslint](https://eslint.org/)
-- [FFMPEG](https://ffmpeg.org/)
+- [ffmpeg](https://ffmpeg.org/)
+- [Prettier](https://prettier.io/)
 - [Node.js](https://nodejs.org/en/)
 - [VS Code][vc]
-- [Prettier](https://prettier.io/)
 - [Typescript](https://www.typescriptlang.org/)
 - [YouTube Search](https://www.npmjs.com/package/yt-search)
 - [QrCode Terminal](https://www.npmjs.com/package/qrcode-terminal)
 - [Whatsapp WEB js](https://pedroslopez.me/whatsapp-web.js/)
-- [YouTube Downloader](https://www.npmjs.com/package/yt-dl-playlist)
 
 ## :information_source: How To
 
@@ -78,7 +78,7 @@ $ yarn start
 ```
 
 <br />
-See available langs in `src/language.ts`. Configure your language in `main.ts` file, on line 13:
+See available langs in `src/language.ts`. Configure your language in `main.ts` file:
 ```ts
 const text = langs.br; // brazilian portuguese
 
@@ -87,8 +87,7 @@ const text = langs.br; // brazilian portuguese
 const text = langs.en; // english
 
 ```
-<br />
-After run the script, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
+After script run, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
 
 ## :mag_right: Functionalities
 
@@ -97,8 +96,14 @@ See the current features!
 - Songs once searched are downloaded for optimized next searches;
 - Send songs in private or in groups;
 - Your friends can send the command too;
-- ~You can enable the "Download progress";~
+- <s>You can enable the "Download progress";</s>
 - Prevents downloading videos more than MAX DURATION minutes long.
+
+## :stars: Upcoming features
+- New command's system
+- Help command
+- New error handling
+- Redesigned music cache
 
 ## :busts_in_silhouette: Contribute
 
@@ -107,7 +112,7 @@ See the current features!
 - Commit your alterations: `git commit -m 'feat: My new feature'`;
 - Push to your branch: `git push origin my-feature`.
 
-Open a pull request with your branch. After yout pull request merge, you should delete your branch.
+Open a pull request with your branch. After pull request merge, you should delete your branch.
 <br />
 We need some translations too! Look for `language.ts` file! **It's so easy!**
 
