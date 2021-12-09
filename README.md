@@ -79,6 +79,7 @@ $ yarn start
 
 <br />
 See available langs in `src/language.ts`. Configure your language in `main.ts` file:
+
 ```ts
 const text = langs.br; // brazilian portuguese
 
@@ -87,6 +88,7 @@ const text = langs.br; // brazilian portuguese
 const text = langs.en; // english
 
 ```
+
 After script run, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
 
 ## :mag_right: Functionalities
