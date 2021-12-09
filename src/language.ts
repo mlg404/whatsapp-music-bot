@@ -1,7 +1,7 @@
 const br = {
   MESSAGE_CONNECTED: 'Conectado com sucesso!',
   MESSAGE_NOT_FOUND: 'Não encontrado, tente novamente.',
-  MESSAGE_TOO_LARGE: 'Músicas com mais de *15 minutos* não são permitidas!',
+  MESSAGE_TOO_LARGE: 'Essa música é muito grande!',
   MESSAGE_WAIT_QUEUE:
     'Alguma música está sendo baixada no momento. Aguarde alguns instantes e envie o comando novamente',
   MESSAGE_DOWNLOAD_STARTED:
@@ -12,13 +12,14 @@ const br = {
   COMMAND_PLAY: '!play',
   COMMAND_INFO: '!info',
   COMMAND_MUSICS: '!musics',
+  MESSAGE_SEARCHING_FOR: '*Procurando por*',
+  MESSAGE_FOUNDED: '*Encontrado*',
 };
 
 const en = {
   MESSAGE_CONNECTED: 'Successfully connected!',
   MESSAGE_NOT_FOUND: 'Not found. Try again',
-  MESSAGE_TOO_LARGE:
-    'You can not download musics with more than 15 minutes duration',
+  MESSAGE_TOO_LARGE: 'Music duration is too large!',
   MESSAGE_WAIT_QUEUE:
     'Download proccess got taken by another user. Await then finish to continue',
   MESSAGE_DOWNLOAD_STARTED:
@@ -29,6 +30,8 @@ const en = {
   COMMAND_PLAY: '!play',
   COMMAND_INFO: '!info',
   COMMAND_MUSICS: '!musics',
+  MESSAGE_SEARCHING_FOR: '*Searching for*',
+  MESSAGE_FOUNDED: '*Founded*',
 };
 
 export default { br, en };

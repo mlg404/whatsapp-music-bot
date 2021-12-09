@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  WhatsApp Music Bot v2
+  WhatsApp Music Bot v3
 </h3>
 
 <p align="center">
@@ -59,11 +59,9 @@ This project was developed following this technologies:
 - [Whatsapp WEB js](https://pedroslopez.me/whatsapp-web.js/)
 - [YouTube Downloader](https://www.npmjs.com/package/yt-dl-playlist)
 
-
-
 ## :information_source: How To
 
-To clone this application you will need [Git](https://git-scm.com) + [Node.js v12.15.0][nodejs] or higher + [Yarn v1.22.4][yarn] or higher installed in your computer. Run in terminal:
+To clone this application you will need [Git](https://git-scm.com) + [Node.js v16][nodejs] or higher + [Yarn v1.22.4][yarn] or higher installed in your computer. Run in terminal:
 
 ```bash
 # Clone this repo
@@ -79,7 +77,6 @@ $ yarn install
 $ yarn start
 ```
 
-You need to configure your `ffmpegPath`. Remeber to previously download and instal ffmpeg (for convertions).
 <br />
 See available langs in `src/language.ts`. Configure your language in `main.ts` file, on line 13:
 ```ts
@@ -88,6 +85,7 @@ const text = langs.br; // brazilian portuguese
 // or
 
 const text = langs.en; // english
+
 ```
 <br />
 After run the script, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
@@ -99,8 +97,8 @@ See the current features!
 - Songs once searched are downloaded for optimized next searches;
 - Send songs in private or in groups;
 - Your friends can send the command too;
-- You can enable the "Download progress";
-- Prevents downloading videos more than 15 minutes long.
+- ~You can enable the "Download progress";~
+- Prevents downloading videos more than MAX DURATION minutes long.
 
 ## :busts_in_silhouette: Contribute
 
@@ -123,3 +121,4 @@ Made with 💙 by Victor Eyer :wave: [Get in touch!](https://www.linkedin.com/in
 [nodejs]: https://nodejs.org/
 [yarn]: https://classic.yarnpkg.com/lang/en/
 [vc]: https://code.visualstudio.com/
+```
