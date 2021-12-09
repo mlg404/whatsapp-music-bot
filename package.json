@@ -1,8 +1,14 @@
 {
   "name": "whatsapp_music_bot",
-  "version": "2.0.0",
-  "main": "main.js",
+  "description": "Turn your number into a DJ!",
+  "version": "3.0.0",
+  "main": "main.ts",
   "license": "MIT",
+  "author": {
+    "email": "eyervictor@gmail.com",
+    "name": "Victor Eyer",
+    "url": "https://github.com/mlg404"
+  },
   "scripts": {
     "start": "ts-node-dev --transpile-only --ignore-watch node_modules src/main.ts"
   },
@@ -24,7 +30,6 @@
     "ffmpeg": "^0.0.4",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#multidevice",
-    "yt-dl-playlist": "^2.1.0",
     "yt-search": "^2.10.2",
     "ytdl-core": "^4.9.1"
   }
