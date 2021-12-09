@@ -30,7 +30,8 @@
       {
         "ts": "never"
       }
-    ]
+    ],
+    "no-console": "off"
   },
   "settings": {
     "import/resolver": {
