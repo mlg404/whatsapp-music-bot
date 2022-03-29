@@ -78,15 +78,14 @@ $ yarn start
 ```
 
 <br />
-See available langs in `src/language.ts`. Configure your language in `main.ts` file:
+See available langs in `src/language.ts`. Configure your language in `config.ts` file:
 
 ```ts
-const text = langs.br; // brazilian portuguese
+export const LANGUAGE = 'br'; // brazilian portuguese
 
 // or
 
-const text = langs.en; // english
-
+export const LANGUAGE = 'en'; // english
 ```
 
 After script run, you need to scan the QrCode in your terminal with your whatsapp! (Same proccess to join whatsapp web)
@@ -94,16 +93,18 @@ After script run, you need to scan the QrCode in your terminal with your whatsap
 ## :mag_right: Functionalities
 
 See the current features!
+
 - Search a song directly from youtube;
 - Songs once searched are downloaded for optimized next searches;
 - Send songs in private or in groups;
 - Your friends can send the command too;
 - <s>You can enable the "Download progress";</s>
 - Prevents downloading videos more than MAX DURATION minutes long.
-
-## :stars: Upcoming features
 - New command's system
 - Help command
+
+## :stars: Upcoming features
+
 - New error handling
 - Redesigned music cache
 
@@ -119,6 +120,7 @@ Open a pull request with your branch. After pull request merge, you should delet
 We need some translations too! Look for `language.ts` file! **It's so easy!**
 
 ## :memo: License
+
 This project is under MIT license. See [LICENSE](https://github.com/mlg404/whatsapp-music-bot/blob/master/LICENSE) for more information.
 
 ---
@@ -128,4 +130,7 @@ Made with 💙 by Victor Eyer :wave: [Get in touch!](https://www.linkedin.com/in
 [nodejs]: https://nodejs.org/
 [yarn]: https://classic.yarnpkg.com/lang/en/
 [vc]: https://code.visualstudio.com/
+
+```
+
 ```
