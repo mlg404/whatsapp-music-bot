@@ -130,7 +130,3 @@ Made with 💙 by Victor Eyer :wave: [Get in touch!](https://www.linkedin.com/in
 [nodejs]: https://nodejs.org/
 [yarn]: https://classic.yarnpkg.com/lang/en/
 [vc]: https://code.visualstudio.com/
-
-```
-
-```
