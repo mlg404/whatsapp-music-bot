@@ -2,6 +2,8 @@ import client from './client';
 import commands from './commands';
 import { PREFIX } from './config';
 
+const allCommands = ["play", "help"];
+
 client.initialize();
 
 client.on('message_create', async message => {
@@ -9,6 +11,8 @@ client.on('message_create', async message => {
 
   const [command, ...rest] = message.body.split(' ');
   const content = rest.join(' ');
+  
+  if (!allCommands.includes(command.substring(1))) return;
 
   commands[command].run(message, content);
 });
