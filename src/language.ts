@@ -22,4 +22,16 @@ const en = {
   HELP_HELP: '*Command:* help\n*Description:* Show this message',
 };
 
-export default { br, en };
+const tr = {
+  CONNECTED: 'Başarıyla bağlandı!',
+  DOWNLOAD_STARTED: '*İNDİRME BAŞLADI:* _Bu işlem birkaç dakika sürebilir_',
+  ERROR: 'Error to complete operation.',
+  SEARCHING_FOR: '*Aranıyor*',
+  FOUNDED: '*Bulundu*',
+  AVAILABLE_COMMANDS: '*Kullanılabilir komutlar:*',
+  HELP_PLAY:
+    '*Komut:* play\n*Açıklama:* Bir youtube videosunun sesini oynatın',
+  HELP_HELP: '*Komut:* help\n*Açıklama:* Bu mesajı göster',
+};
+
+export default { br, en, tr };
